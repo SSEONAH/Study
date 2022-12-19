@@ -1,0 +1,1629 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "b1be2ece",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 001\n",
+    "print(\"Hello World\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "d0e78498",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mary's cosmetics \n"
+     ]
+    }
+   ],
+   "source": [
+    "# 002\n",
+    "print(\"Mary's cosmetics \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "fbacd26b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "신씨가 소리질렀다. \"도둑이야\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 003\n",
+    "print('신씨가 소리질렀다. \"도둑이야\"')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "91a712eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\"C:\\Windows\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 004\n",
+    "print('\"C:\\Windows\"')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "e52c1872",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "안녕하세요.\n",
+      "만나서\t\t반갑습니다.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 005\n",
+    "print(\"안녕하세요.\\n만나서\\t\\t반갑습니다.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "44da72ce",
+   "metadata": {},
+   "source": [
+    "\\n은 줄바꿈 , \\t는 tap "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "ee9c0757",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "오늘은 일요일\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 006\n",
+    "print (\"오늘은\", \"일요일\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "8208bd6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "naver;kakao;sk;samsung\n",
+      "naver;kakao;sk;samsung\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 007\n",
+    "print(\"naver;kakao;sk;samsung\")\n",
+    "# print 함수의 sep 인자로 \";\"를 입력하면 출력되는 값들 사이에 한 칸의 공백대신 세미콜론이 출력됩니다.\n",
+    "print(\"naver\", \"kakao\",\"sk\",\"samsung\", sep=\";\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "5070d787",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "naver/kakao/sk/samsung\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 008\n",
+    "print(\"naver\", \"kakao\",\"sk\",\"samsung\", sep=\"/\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "213165ab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "firstsecond\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 009\n",
+    "print(\"first\",end=\"\");print(\"second\")\n",
+    "# end=\"\"> print 문을 이용해 출력을 완료한 뒤의 내용을 수정할 수 있다.\n",
+    "# 기본 값으로는 개행(\\n)이 들어가 있으며 이를 사용해 개행을 없애거나 원하는 문자를 입력할 수 있습니다."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "840469af",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1.6666666666666667\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 010\n",
+    "5/3\n",
+    "print(5/3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "e0b412ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "500000\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 011\n",
+    "s = 50000\n",
+    "t = s * 10 \n",
+    "print(t)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "44bf228f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2980000000000 <class 'int'>\n",
+      "50000 <class 'int'>\n",
+      "15.79 <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 012\n",
+    "시가총액 = 2980000000000\n",
+    "현재가 = 50000\n",
+    "PER = 15.79\n",
+    "print(시가총액, type(시가총액))\n",
+    "print(현재가, type(현재가))\n",
+    "print(PER, type(PER))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "4fd30a4f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello! python\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 013\n",
+    "s = \"hello\"\n",
+    "t = \"python\"\n",
+    "print(s+\"!\"+\" \"+t)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "cb492b53",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 014\n",
+    "print(2 + 2 * 3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "8d4e8322",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 015\n",
+    "a = 128\n",
+    "print (type(a))\n",
+    "\n",
+    "b = \"132\"\n",
+    "print(type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "b745074e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n",
+      "721\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 016\n",
+    "# num_str = 720 \n",
+    "# print(type(num_str))\n",
+    "\n",
+    "num_str = \"720\"\n",
+    "num_int = int(num_str)\n",
+    "print(type(num_int))\n",
+    "print(num_int + 1)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "1bb5c79f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 017\n",
+    "num = 100 \n",
+    "num_str = str(num)\n",
+    "print(num_str)\n",
+    "print(type(num_str))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "b8466817",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15.79\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 018\n",
+    "num_str = \"15.79\"\n",
+    "num_float = float(num_str)\n",
+    "print(num_float)\n",
+    "print(type(num_float))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "2002b030",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2020 <class 'int'>\n",
+      "2017\n",
+      "2018\n",
+      "2019\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 019\n",
+    "year = \"2020\"\n",
+    "int_year = int(year)\n",
+    "print(int_year, type(int_year))\n",
+    "print(int_year-3)\n",
+    "print(int_year-2)\n",
+    "print(int_year-1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "454a2a9f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1749024\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 020\n",
+    "ms = 48584\n",
+    "t = ms * 36 \n",
+    "print(t)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "04609635",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "p t\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 021\n",
+    "letters = 'python'\n",
+    "print(letters[0],letters[2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "a0a847b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2210\n",
+      "2210\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 022\n",
+    "license_plate = \"24가 2210\"\n",
+    "print(license_plate[-4:])\n",
+    "print(license_plate[4:])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "5f19467c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "홀 홀 홀\n",
+      "홀홀홀\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 023\n",
+    "string = \"홀짝홀짝홀짝\"\n",
+    "print(string[0],string[2],string[4])\n",
+    "# 짝수자리만 인덱싱하는 방법이 있을텐데.. \n",
+    "# 슬라이싱할 때 `시작인덱스:끝인덱스:오프셋`을 지정할 수 있습니다.\n",
+    "print(string[::2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "638a3791",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "NOHTYP\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 024\n",
+    "string = \"PYTHON\"\n",
+    "print(string[::-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "96bc5158",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'010-1111-2222'"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 025\n",
+    "phone_number = \"010-1111-2222\"\n",
+    "phone_number.strip(\"-\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0d399df9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 026\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "4405b7b1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "kr\n"
+     ]
+    }
+   ],
+   "source": [
+    "# # 027\n",
+    "# url = \"http://sharebook.kr\"\n",
+    "# print(url[-2:])\n",
+    "\n",
+    "# 문자열로 표현된 url에서 `.`을 기준으로 분리합니다. \n",
+    "# 분리된 url 중 마지막을 인덱싱하면 도메인만 출력할 수 있습니다.\n",
+    "\n",
+    "url = \"http://sharebook.kr\"\n",
+    "url_split = url.split('.')\n",
+    "print(url_split[-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "5279840e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'str' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/zg/nfflt_n504nfd_71w152rxzr0000gn/T/ipykernel_98456/941764570.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m# 028\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0mlang\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'python'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mlang\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'P'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mlang\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;31m# Python으로 출력될듯\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mTypeError\u001b[0m: 'str' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "# 028\n",
+    "lang = 'python'\n",
+    "lang[0] = 'P'\n",
+    "print(lang)\n",
+    "\n",
+    "# Python으로 출력될듯\n",
+    "# 아니넹 ㅎ 문자열을 수정할 수 없다. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "d532fc66",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Abcdfe2A354A32A'"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 029\n",
+    "string = 'abcdfe2a354a32a'\n",
+    "string.replace('a', 'A')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "b23aceb2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "abcd\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 030\n",
+    "string = 'abcd'\n",
+    "string.replace('b', 'B')\n",
+    "print(string)\n",
+    "# aBcd로 출력될듯\n",
+    "# 아 변경된거 변수를 지정안하고 원래 string으로 출력해서 그런가:?\n",
+    "# 문자열은 변경할 수 없는 자료\n",
+    "# replace 메서드를 사용하면 원본은 그대로 둔채로 변경된 새로운 문자열 객체를 리턴해줍니다."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "eca853c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "34\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 031\n",
+    "a = \"3\"\n",
+    "b = \"4\"\n",
+    "print(a + b)\n",
+    "\n",
+    "# 34로 출력될듯"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "c930169c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "HiHiHi\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 032\n",
+    "print(\"Hi\" * 3)\n",
+    "# HiHiHi?\n",
+    "# 문자열에 대한 곱셈은 문자열의 반복을 의미 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "4ffc97ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "--------------------------------------------------------------------------------\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 033\n",
+    "print('-' * 80)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "6df57799",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "python java python java python java python java \n"
+     ]
+    }
+   ],
+   "source": [
+    "# 034\n",
+    "t1 = 'python'\n",
+    "t2 = 'java'\n",
+    "print((t1 +\" \"+ t2 +\" \") * 4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "9b6095cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "이름: 김민수  나이 : 10\n",
+      "이름: 이철희  나이 : 13\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 035\n",
+    "\n",
+    "name1 = \"김민수\" \n",
+    "age1 = 10\n",
+    "name2 = \"이철희\"\n",
+    "age2 = 13\n",
+    "\n",
+    "# 출력예시 \n",
+    "# 이름: 김민수 나이: 10\n",
+    "# 이름: 이철희 나이: 13\n",
+    "\n",
+    "print(\"이름: %s \" %name1 ,\"나이 : %d\" %age1)\n",
+    "print(\"이름: %s \" %name2 ,\"나이 : %d\" %age2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "bf4946be",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "이름 : 김민수 나이 : 10\n",
+      "이름 : 이철희 나이 : 13\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 036\n",
+    "print(\"이름 : {0} 나이 : {1}\" .format('김민수','10'))\n",
+    "print(\"이름 : {0} 나이 : {1}\" .format('이철희','13'))\n",
+    "# format뒤에 name1, age1 으로 변경해도됨 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "8feae058",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "이름:김민수 나이:10\n",
+      "이름:이철희 나이:13\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 037\n",
+    "name1 = \"김민수\" \n",
+    "age1 = 10\n",
+    "name2 = \"이철희\"\n",
+    "age2 = 13\n",
+    "\n",
+    "김민수 = f'이름:{name1} 나이:{age1}'\n",
+    "이철희 = f'이름:{name2} 나이:{age2}'\n",
+    "print(김민수)\n",
+    "print(이철희)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "6e8c9ce5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5969782550\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 038\n",
+    "상장주식수 = \"5,969,782,550\"\n",
+    "상장주식수 = int(상장주식수.replace(',',''))\n",
+    "print(상장주식수)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "1b2e2f50",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2020/03\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 039\n",
+    "분기 = \"2020/03(E) (IFRS연결)\"\n",
+    "print(분기[:7])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "daeccd3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'삼성전자'"
+      ]
+     },
+     "execution_count": 98,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 040\n",
+    "data = \"   삼성전자    \"\n",
+    "data.strip(\" \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "14afdd9d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "BTC_KRW\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 041\n",
+    "ticker = \"btc_krw\"\n",
+    "Ticker = ticker.upper() \n",
+    "print(Ticker)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "id": "d52379c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "btc_krw\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 042\n",
+    "ticker = \"BTC_KRW\"\n",
+    "ticker1 = ticker.lower()\n",
+    "print(ticker1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "3a45268d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello , world\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 043\n",
+    "print(\"hello , world\".capitalize())\n",
+    "\n",
+    "a = \"hello\"\n",
+    "a = a.capitalize()\n",
+    "# capitalize 해당 문자를 대문자로 변경해서 출력"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "b10f500c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 108,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 044\n",
+    "\n",
+    "file_name = \"보고서.xlsx\"\n",
+    "file_name.endswith('xlsx')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "a22dd93b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 109,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 045\n",
+    "\n",
+    "file_name = \"보고서.xlsx\"\n",
+    "file_name.endswith('xlsx' or 'xls')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "86da8efa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 110,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 046\n",
+    "\n",
+    "file_name = \"2020_보고서.xlsx\"\n",
+    "file_name.startswith(\"2020\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "4dc7d2fc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 047\n",
+    "\n",
+    "a = \"hello world\"\n",
+    "a.split()\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "c14fb90e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['btc', 'krw']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 048\n",
+    "ticker = \"btc_krw\"\n",
+    "ticker1 = ticker.split(\"_\")\n",
+    "print(ticker1)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 118,
+   "id": "55c49908",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['2020', '05', '01']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 049\n",
+    "date = \"2020-05-01\"\n",
+    "date1 = date.split('-')\n",
+    "print(date1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "1e57abc8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'039490'"
+      ]
+     },
+     "execution_count": 119,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 050\n",
+    "data =  \"039490     \"\n",
+    "data.rstrip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "bbabb0ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['닥터 스트레인지', '스플릿', '럭키']"
+      ]
+     },
+     "execution_count": 131,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 051\n",
+    "movie_rank = ['닥터 스트레인지' , '스플릿', '럭키']\n",
+    "movie_rank"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 132,
+   "id": "3e94c679",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['닥터 스트레인지', '스플릿', '럭키', '배트맨']"
+      ]
+     },
+     "execution_count": 132,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 052\n",
+    "movie_rank = ['닥터 스트레인지' , '스플릿', '럭키']\n",
+    "movie_rank.insert(3, '배트맨')\n",
+    "movie_rank\n",
+    "\n",
+    "# 처음부터 list라고 작성해서 insert랑 append 둘 다 안됨 \n",
+    "# list삭제하고 다시 작성함 \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "id": "9bca59df",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['닥터 스트레인지', '슈퍼맨', '스플릿', '럭키', '배트맨']"
+      ]
+     },
+     "execution_count": 133,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 053\n",
+    "movie_rank = ['닥터 스트레인지', '스플릿', '럭키', '배트맨']\n",
+    "movie_rank.insert(1,'슈퍼맨')\n",
+    "movie_rank"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "610821cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['닥터 스트레인지', '슈퍼맨', '스플릿', '배트맨']"
+      ]
+     },
+     "execution_count": 139,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 054\n",
+    "movie_rank = ['닥터 스트레인지','슈퍼맨', '스플릿', '럭키', '배트맨']\n",
+    "del movie_rank[3]\n",
+    "movie_rank"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 140,
+   "id": "93afb69c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['닥터 스트레인지', '슈퍼맨']"
+      ]
+     },
+     "execution_count": 140,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 055\n",
+    "movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '배트맨']\n",
+    "del movie_rank[2:]\n",
+    "movie_rank"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 143,
+   "id": "6ac34f1d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['C', 'C++', 'JAVA', 'Python', 'Go', 'C#']"
+      ]
+     },
+     "execution_count": 143,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 056\n",
+    "\n",
+    "# 정답1\n",
+    "lang1 = [\"C\", \"C++\", \"JAVA\"]\n",
+    "lang2 = [\"Python\", \"Go\", \"C#\"]\n",
+    "langs = ([\"C\", \"C++\", \"JAVA\"] + [\"Python\", \"Go\", \"C#\"])\n",
+    "langs\n",
+    "\n",
+    "# 정답 2\n",
+    "langs = list(lang1 + lang2)\n",
+    "langs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 150,
+   "id": "c5cd685e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "max : 7\n",
+      "min : 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 057\n",
+    "\n",
+    "\n",
+    "nums = [1, 2, 3, 4, 5, 6, 7]\n",
+    "a = max(nums)\n",
+    "b = min(nums)\n",
+    "print('max : %d' %a)\n",
+    "print('min : %d' %b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 151,
+   "id": "b681b9bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "15"
+      ]
+     },
+     "execution_count": 151,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 058\n",
+    "\n",
+    "nums = [1, 2, 3, 4, 5]\n",
+    "sum(nums)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 152,
+   "id": "697a2af4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12"
+      ]
+     },
+     "execution_count": 152,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#  059\n",
+    "cook = [\"피자\", \"김밥\", \"만두\", \"양념치킨\", \"족발\", \"피자\", \"김치만두\", \"쫄면\", \"소시지\", \"라면\", \"팥빙수\", \"김치전\"]\n",
+    "len(cook)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 155,
+   "id": "e1ab56ca",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.0"
+      ]
+     },
+     "execution_count": 155,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 060\n",
+    "\n",
+    "nums = [1, 2, 3, 4, 5]\n",
+    "sum(nums) / len(nums)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 158,
+   "id": "175b7250",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[100, 130, 140, 150, 160, 170]"
+      ]
+     },
+     "execution_count": 158,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 061\n",
+    "\n",
+    "price = ['20180728', 100, 130, 140, 150, 160, 170]\n",
+    "price1 = price[1:7]\n",
+    "# price1 = price[1:]\n",
+    "price1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 160,
+   "id": "501e8848",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 3, 5, 7, 9]"
+      ]
+     },
+     "execution_count": 160,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 062\n",
+    "\n",
+    "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+    "nums[::2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 167,
+   "id": "99a6b466",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 4, 6, 8, 10]"
+      ]
+     },
+     "execution_count": 167,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 063\n",
+    "\n",
+    "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+    "nums[1::2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 172,
+   "id": "0a8b6b10",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[5, 4, 3, 2, 1]"
+      ]
+     },
+     "execution_count": 172,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 064\n",
+    "\n",
+    "nums = [1, 2, 3, 4, 5]\n",
+    "nums[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 178,
+   "id": "083dbaf4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "삼성전자 Naver\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 065\n",
+    "\n",
+    "interest = ['삼성전자', 'LG전자', 'Naver']\n",
+    "print(interest[0] + \" \" +interest[2])\n",
+    "print(interest[0] , interest[2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 181,
+   "id": "08fd18e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "삼성전자 LG전자 Naver SK하이닉스 미래에셋대우\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 066\n",
+    "interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']\n",
+    "# print(interest[0] , interest[1], interest[2], interest[3], interest[4])\n",
+    "print(\" \".join(interest))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 183,
+   "id": "c09a55a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "삼성전자 / LG전자 / Naver / SK하이닉스 / 미래에셋대우\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 067\n",
+    "interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']\n",
+    "print(\" / \".join(interest))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 184,
+   "id": "692f8418",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "삼성전자\n",
+      "LG전자\n",
+      "Naver\n",
+      "SK하이닉스\n",
+      "미래에셋대우\n"
+     ]
+    }
+   ],
+   "source": [
+    "interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']\n",
+    "print(\"\\n\".join(interest))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 190,
+   "id": "defd2812",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['삼성전자', 'LG전자', 'Naver']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 069\n",
+    "\n",
+    "string = \"삼성전자/LG전자/Naver\"\n",
+    "# interest = list(string)\n",
+    "# print(\"\".join(interest))\n",
+    "\n",
+    "interest = string.split(\"/\")\n",
+    "print(interest)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 194,
+   "id": "8b4ce177",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 5, 9, 10]"
+      ]
+     },
+     "execution_count": 194,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 070\n",
+    "data = [2, 4, 3, 1, 5, 10, 9]\n",
+    "data.sort()\n",
+    "data\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "170623ce",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 025"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

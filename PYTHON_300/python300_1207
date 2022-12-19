@@ -1,0 +1,1284 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "7eff5123",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'tuple'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 071 \n",
+    "my_variabl = tuple()\n",
+    "\n",
+    "print(type(my_variabl))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "cfaed1c0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 072\n",
+    "movie_rank = (\"닥터 스트레인지\", \"스플릿\", \"럭키\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "61e4f171",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 073\n",
+    "tuple = (1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "f1653230",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'tuple' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/zg/nfflt_n504nfd_71w152rxzr0000gn/T/ipykernel_18103/3526648187.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m# 074\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0mt\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m2\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m3\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mt\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'a'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m: 'tuple' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "# 074\n",
+    "t = (1, 2, 3)\n",
+    "t[0] = 'a'\n",
+    "#  넣으려는 값은 리스트이기 때문에?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fd371c19",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 075\n",
+    "#int"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "98f3fb61",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 076 \n",
+    "t = ('A','b','c')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "c980326c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['삼성전자', 'LG전자', 'SK Hynix']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 077\n",
+    "interest = ('삼성전자', 'LG전자', 'SK Hynix')\n",
+    "a = list(interest)\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "b8338258",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'int' object is not callable",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/zg/nfflt_n504nfd_71w152rxzr0000gn/T/ipykernel_18103/4074502361.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m# 078\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0minterest\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m'삼성전자'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'LG전자'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'SK Hynix'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mdata\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mtuple\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minterest\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mdata\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mTypeError\u001b[0m: 'int' object is not callable"
+     ]
+    }
+   ],
+   "source": [
+    "# 078\n",
+    "interest = ['삼성전자', 'LG전자', 'SK Hynix']\n",
+    "data = tuple(interest)\n",
+    "print(data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "a27c6bbf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "apple banana cake\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 079\n",
+    "temp = ('apple', 'banana', 'cake')\n",
+    "a, b, c = temp\n",
+    "print(a, b, c)\n",
+    "# apple, banana, cake 일듯"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 149,
+   "id": "b48ce7eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2628309386.py, line 3)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/zg/nfflt_n504nfd_71w152rxzr0000gn/T/ipykernel_18103/2628309386.py\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    data\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 080\n",
+    "data = (range(2, 100 , 2)\n",
+    "data\n",
+    "\n",
+    "# 예약어를 변수명으로 사용했다??? "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "6e621bfc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 081 \n",
+    "scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]\n",
+    "*vaild_score, _, _ = scores\n",
+    "print(vaild_score)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "c9c9aeab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 082\n",
+    "scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]\n",
+    "_,_,*vaild_score = scores\n",
+    "print(vaild_score)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "44eadd01",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 083\n",
+    "scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]\n",
+    "_,*vaild_score,_ = scores\n",
+    "print(vaild_score)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "7d376856",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 084\n",
+    "temp = {}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "cf9329e6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'메로나 ': 1000, '폴라포': 1200, '빵빠레': 1800}"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 085\n",
+    "temp = {\"메로나 \": 1000, \"폴라포\" : 1200, \"빵빠레\" : 1800}\n",
+    "temp"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "ad55c234",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'메로나 ': 1000, '폴라포': 1200, '빵빠레': 1800, 3: '1200', '조스바': 1200, '월드콘': 1500}"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 086\n",
+    "temp['조스바'] =1200\n",
+    "temp['월드콘'] = 1500 \n",
+    "temp"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "bf76c297",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "메로나 가격 :  1000\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 087\n",
+    "ice = {'메로나': 1000,\n",
+    "       '폴로포': 1200,\n",
+    "       '빵빠레': 1800,\n",
+    "       '죠스바': 1200,\n",
+    "       '월드콘': 1500}\n",
+    "\n",
+    "print(\"메로나 가격 : \" , ice['메로나'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "0b33c69f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'메로나': 1300, '폴로포': 1200, '빵빠레': 1800, '죠스바': 1200, '월드콘': 1500}"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 088\n",
+    "\n",
+    "ice = {'메로나': 1000,\n",
+    "       '폴로포': 1200,\n",
+    "       '빵빠레': 1800,\n",
+    "       '죠스바': 1200,\n",
+    "       '월드콘': 1500}\n",
+    "\n",
+    "ice['메로나'] = 1300 \n",
+    "\n",
+    "ice\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "b1ca999f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'폴로포': 1200, '빵빠레': 1800, '죠스바': 1200, '월드콘': 1500}"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 089\n",
+    "\n",
+    "ice = {'메로나': 1000,\n",
+    "       '폴로포': 1200,\n",
+    "       '빵빠레': 1800,\n",
+    "       '죠스바': 1200,\n",
+    "       '월드콘': 1500}\n",
+    "\n",
+    "del ice['메로나'] \n",
+    "\n",
+    "ice\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3857d8e6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 090 \n",
+    "\n",
+    ">> icecream = {'폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}\n",
+    ">> icecream['누가바']\n",
+    "Traceback (most recent call last):\n",
+    "  File \"<pyshell#69>\", line 1, in <module>\n",
+    "    icecream['누가바']\n",
+    "KeyError: '누가바'\n",
+    "    \n",
+    "#     딕셔너리 안에 누가바라는 데이터가 없으니까?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "cf7f5c38",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'메로나': [300, 20], '비비빅': [400, 3], '죠스바': [250, 100]}"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 091\n",
+    "\n",
+    "inventory = {'메로나':[300,20],'비비빅':[400,3],'죠스바':[250,100] }\n",
+    "inventory"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "18d2116b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "300 원\n"
+     ]
+    }
+   ],
+   "source": [
+    "inventory = {\"메로나\": [300, 20],\n",
+    "              \"비비빅\": [400, 3],\n",
+    "              \"죠스바\": [250, 100]}\n",
+    "print(inventory[\"메로나\"][0],\"원\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "318a5f4f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20 개\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 093\n",
+    "inventory = {\"메로나\": [300, 20],\n",
+    "              \"비비빅\": [400, 3],\n",
+    "              \"죠스바\": [250, 100]}\n",
+    "\n",
+    "print(inventory[\"메로나\"][1],\"개\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "c2a4fbd3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'메로나': [300, 20], '비비빅': [400, 3], '죠스바': [250, 100], '월드콘': [500, 7]}"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 094\n",
+    "\n",
+    "inventory = {\"메로나\": [300, 20],\n",
+    "              \"비비빅\": [400, 3],\n",
+    "              \"죠스바\": [250, 100]}\n",
+    "\n",
+    "inventory[\"월드콘\"] = [500,7] \n",
+    "inventory\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "91856e1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['탱크보이', '폴라포', '빵빠레', '월드콘', '메로나']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 095\n",
+    "icecream = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}\n",
+    "# icecream.keys()\n",
+    "# icecream.keys(['탱크보이','폴라포','빵빠레','월드콘','메로나'])\n",
+    "\n",
+    "ice = list(icecream.keys())\n",
+    "print(ice)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "7369b7e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1200, 1200, 1800, 1500, 1000]"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 096\n",
+    "icecream = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}\n",
+    "cream = list(icecream.values())\n",
+    "cream"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "d01bc392",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000, '팥빙수': 2700, '아맛나': 1000}\n"
+     ]
+    }
+   ],
+   "source": [
+    "icecream = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}\n",
+    "new_product = {'팥빙수':2700, '아맛나':1000}\n",
+    "\n",
+    "icecream.update({'팥빙수':2700, '아맛나':1000})\n",
+    "print(icecream)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "52b40c72",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'apple': 300, 'pear': 250, 'peach': 400}\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 099\n",
+    "keys = (\"apple\", \"pear\", \"peach\")\n",
+    "vals = (300, 250, 400)\n",
+    "\n",
+    "data = zip(keys,vals)\n",
+    "print(dict(data))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "7227a373",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'09/05': 10500, '09/06': 10300, '09/07': 10100, '09/08': 10800, '09/09': 11000}\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 100\n",
+    "date = ['09/05', '09/06', '09/07', '09/08', '09/09']\n",
+    "close_price = [10500, 10300, 10100, 10800, 11000]\n",
+    "\n",
+    "close_table = zip(date, close_price)\n",
+    "print(dict(close_table))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e3deb4a0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 101\n",
+    "# bool"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8b0b1c9f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 102\n",
+    "# False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5f4faf86",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 103 \n",
+    "# True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c15dab2d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 104\n",
+    "# True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "edbb1cdf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 105\n",
+    "# True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "57c5458a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 106\n",
+    "# 3이 4보다 크거나 같지 않고 부호가 일단 이상한데?.. >= <= 이런식으로 쓰는거 아닌가 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6aadc0ad",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 107\n",
+    "# 출력 안됨 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0780e6b3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 108\n",
+    "# hi , there"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7d28193d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 109\n",
+    "# 4\n",
+    "\n",
+    "# 아 1, 2, 4 로 출력되는구나? True까지 합해서 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8a9f9619",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 110\n",
+    "# 3, 5?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "ecc34844",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "안녕하세요\n",
+      "안녕하세요안녕하세요\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 111\n",
+    "a = input()\n",
+    "print(a*2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "10cbf61c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "숫자를 입력하세요 : 30\n",
+      "40\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 112\n",
+    "a = input(\"숫자를 입력하세요 : \" )\n",
+    "print(int(a) + 10 )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "851af016",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "숫자를 입력하세요 :43\n",
+      "홀수\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 113\n",
+    "a = int(input(\"숫자를 입력하세요 :\"))\n",
+    "if a % 2 == 0:\n",
+    "    print(\"짝수\")\n",
+    "else:\n",
+    "    print(\"홀수\")\n",
+    "    \n",
+    "#  처음 작성할때 int를 안넣고 돌렸더니 not all arguments converted during string formatting\n",
+    "# 이런 오류가 발생했다 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "8ca3c815",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "숫자를 입력하세요 :100\n",
+      "120\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 114\n",
+    "a = int(input(\"숫자를 입력하세요 :\"))\n",
+    "\n",
+    "\n",
+    "if a+20 > 255:\n",
+    "    print(\"255\")\n",
+    "else :\n",
+    "    print(a + 20 )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "ffb233be",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "숫자를 입력하세요 :150\n",
+      "130\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 115\n",
+    "\n",
+    "a = int(input(\"숫자를 입력하세요 :\"))\n",
+    "\n",
+    "\n",
+    "if a-20 > 255:\n",
+    "    print(\"255\")\n",
+    "elif a-20 < 0: \n",
+    "    print(\"0\")\n",
+    "else :\n",
+    "    print(a - 20 )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 151,
+   "id": "4f18d207",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "입력 :20:00\n",
+      "현재시간 :  ['20', '00']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 116\n",
+    "a = (input(\"입력 :\"))\n",
+    "print(\"현재시간 : \",a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "5e1fda99",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "좋아하는 과일은 :수박\n",
+      "오답입니다\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 117\n",
+    "\n",
+    "fruit = [\"사과\", \"포도\", \"홍시\"]\n",
+    "a = input(\"좋아하는 과일은 :\")\n",
+    "\n",
+    "if a in fruit :\n",
+    "    print(\" 정답입니다 \")\n",
+    "else :\n",
+    "    print(\"오답입니다\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "993c5d68",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "투자 종목:Google\n",
+      "투자 경고 종목입니다.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 118\n",
+    "warn_investment_list = [\"Microsoft\", \"Google\", \"Naver\", \"Kakao\", \"SAMSUNG\", \"LG\"]\n",
+    "a = input(\"투자 종목:\")\n",
+    "\n",
+    "if a in warn_investment_list:\n",
+    "    print(\"투자 경고 종목입니다.\")\n",
+    "else:\n",
+    "    print(\"투자 경고 종목이 아닙니다\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "6fc90e75",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "제가 제일 좋아하는 계절은:봄\n",
+      "정답입니다.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 119\n",
+    "\n",
+    "fruit = {\"봄\" : \"딸기\", \"여름\" : \"토마토\", \"가을\" : \"사과\"}\n",
+    "\n",
+    "a = input(\"제가 제일 좋아하는 계절은:\")\n",
+    "\n",
+    "if a in fruit:\n",
+    "    print(\"정답입니다.\")\n",
+    "else:\n",
+    "    print(\"오답 입니다.\")\n",
+    "    \n",
+    "#     key값이라고 해서 key를 넣었는데 다 오답나옴 \n",
+    "#  fruit로 변경 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "id": "fedf4340",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "좋아하는 과일은?:딸기\n"
+     ]
+    },
+    {
+     "ename": "NameError",
+     "evalue": "name 'values' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/zg/nfflt_n504nfd_71w152rxzr0000gn/T/ipykernel_18103/1666517574.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0ma\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"좋아하는 과일은?:\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 7\u001b[0;31m \u001b[0;32mif\u001b[0m \u001b[0ma\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mvalues\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      8\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"정답입니다.\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'values' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "# 120\n",
+    "\n",
+    "fruit = {\"봄\" : \"딸기\", \"여름\" : \"토마토\", \"가을\" : \"사과\"}\n",
+    "\n",
+    "a = input(\"좋아하는 과일은?:\")\n",
+    "\n",
+    "if a in values:\n",
+    "    print(\"정답입니다.\")\n",
+    "else:\n",
+    "    print(\"오답 입니다.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "765e70f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "입력:C\n",
+      "c\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 121\n",
+    "a = input(\"입력:\")\n",
+    "\n",
+    "if a.islower() == True:\n",
+    "    print(a.upper())\n",
+    "else:\n",
+    "    print(a.lower())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 132,
+   "id": "7bf2c05e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "성적 입력:5\n",
+      "F\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 122\n",
+    "a = int(input(\"성적 입력:\"))\n",
+    "\n",
+    "if a >= 81 and a <= 100 :\n",
+    "    print(\"A\")\n",
+    "elif a >= 61 and a <= 80 :\n",
+    "    print(\"B\")\n",
+    "elif a >= 41 and a <= 60 :\n",
+    "    print(\"C\")\n",
+    "elif a >= 21 and a <= 40 :\n",
+    "    print(\"D\")\n",
+    "else:\n",
+    "    print(\"F\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 155,
+   "id": "b4c69c8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "입력 통화명:달러\n",
+      "금액: 100\n",
+      "116700\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 123\n",
+    "\n",
+    "a = input(\"입력 통화명:\")\n",
+    "b = int(input(\"금액: \"))\n",
+    "\n",
+    "if a == \"달러\":\n",
+    "    print(b * 1167)\n",
+    "elif a == \"엔\" :\n",
+    "    print(b * 1.096)\n",
+    "elif a == \"유로\" :\n",
+    "    print(b * 1268)\n",
+    "elif a == \"위안\" :\n",
+    "    print(b * 171)\n",
+    "else:\n",
+    "    print(\"뿅\")\n",
+    "    \n",
+    "    \n",
+    "#  a == 달러 라고 작성을 했을때 달러라는 단어가 없다고 오류가 떴는데 \n",
+    "#  문자열로 안씌워줘서 그런듯 \"단어 \" 안에 넣으니까 성 - 공 ~!\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "16d282b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a: 10\n",
+      "b: 20\n",
+      "c: 30\n",
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input(\"a: \"))\n",
+    "b = int(input(\"b: \"))\n",
+    "c = int(input(\"c: \"))\n",
+    "\n",
+    "if a >= b and a >= c:\n",
+    "    print(a)\n",
+    "elif b >= a and b >= c:\n",
+    "    print(b)\n",
+    "else:\n",
+    "    print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 159,
+   "id": "5c059c7c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "번호 입력: 016-2222-2222\n",
+      "KT\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 125\n",
+    "\n",
+    "a = (input(\"번호 입력: \")).split(\"-\")\n",
+    "\n",
+    "\n",
+    "\n",
+    "if a[0] == \"011\":\n",
+    "    print(\"SKT\")\n",
+    "elif a[0] == \"016\":\n",
+    "    print(\"KT\")\n",
+    "elif a[0] == \"019\":\n",
+    "    print(\"LGU\")\n",
+    "elif a[0] == \"010\":\n",
+    "    print(\"알수없음\")\n",
+    "    \n",
+    "# 처음에는 a == \"011\" 이렇게 작성을 했는데 a를 다 비교해버리면 알 수 없기때문에 \n",
+    "# a의 0번째 인덱스랑 비교할 수 있도록 코드를 재수정 했슴다 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1b30af38",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 126\n",
+    "a = int(input(\"우편번호 입력:\"))\n",
+    "\n",
+    "if a[0:3] "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1e38a1e6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b7c23afb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cf6e90f9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cc45deae",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "44cd1b05",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ca46c35f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f5cde261",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d57c94bc",
+   "metadata": {},
+   "source": [
+    "81번 95번 109번 116번 120번 123번 125번 \n",
+    "튜플 딕셔너리 리스트 공부 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bb2525fb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "82b2cbdd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eb34e181",
+   "metadata": {},
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
