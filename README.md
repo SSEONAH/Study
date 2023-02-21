@@ -9,4 +9,4 @@
 2. 후루룩! 파이썬 300제
 - <a href="https://www.notion.so/300-123b047b8c4f46afb1c3f491cb07dd7b?pvs=4" target="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
 - 6 / Dec / 2022 ~ 16 / Dec / 2022
-- 파이썬 300재 알고리즘 문제풀이 
+- 파이썬 300제 알고리즘 문제풀이 
